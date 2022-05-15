@@ -1,0 +1,20 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}Plugin
+api-version: 1.18
+author: Exnet
+website: https://github.com/MarryShield
+
+depend:
+  - Citizens
+
+commands:
+  circlenpc:
+    usage: /<command> <args>
+    description: This Command is Main Command.
+    aliases: [cn]
+    permission: circlenpc
+
+permissions:
+  circlenpc:
+    default: false
